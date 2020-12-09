@@ -31,17 +31,18 @@ for line in lines:
         else:
             print('Error')
     col = cols[0]
-    seat.append([row,col])
+    seat.append([row, col])
     seatID.append(row * 8 + col)
     maxSeatID = max(row * 8 + col, maxSeatID)
 
 emptySeat = []
 for i in range(127):
     for j in range(7):
-        if all([i,j] != c for c in seat):
-            emptySeat.append([i,j])
+        if all([i, j] != c for c in seat):
+            emptySeat.append([i, j])
 
 for seats in emptySeat:
-    if (seats[0] * 8 + seats[1] - 1 in seatID) and (seats[0] * 8 + seats[1] + 1 in seatID):
+    if ((seats[0] * 8 + seats[1] - 1 in seatID) and
+            (seats[0] * 8 + seats[1] + 1 in seatID)):
         print(seats[0] * 8 + seats[1])
         break
