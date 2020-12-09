@@ -6,6 +6,16 @@ The alternative solutions (day*Alt.py files) are created after I've completed th
 
 Below is a diary of the main take-aways from each day and the main things I have learned within python.
 
+  * [Day 1](#day-1)
+  * [Day 2](#day-2)
+  * [Day 3](#day-3)
+  * [Day 4](#day-4)
+  * [Day 5](#day-5)
+  * [Day 6](#day-6)
+  * [Day 7](#day-7)
+  * [Day 8](#day-8)
+  * [Day 9](#day-9)
+
 ## Day 1
 This challenge mainly consisted of me learning basic python syntax including for loops and if statements. Additionally, finding the correct syntax for importing my data was challenging and then learning how to read this data.
 
