@@ -15,6 +15,7 @@ Below is a diary of the main take-aways from each day and the main things I have
   * [Day 7](#day-7)
   * [Day 8](#day-8)
   * [Day 9](#day-9)
+  * [Day 10](#day-10)
 
 ## Day 1
 This challenge mainly consisted of me learning basic python syntax including for loops and if statements. Additionally, finding the correct syntax for importing my data was challenging and then learning how to read this data.
@@ -52,3 +53,9 @@ Our first day where our solution was similar enough to the alternative that I di
 ## Day 9
 First day where I feel my solution was more elegant than the alternative. I made use of **deque** which was nice after learning about these in Day 7. Maybe need to find a way of having less checking variables to break code more subtly once the answer has been found. The alternative was less lines of code however a lot slower as it looped though the data more than our. Found a neat solution to finding 2 numbers from a list that add to a target number which doesn't need to look though the data multiple times. I learned a lot about list slicing using the alternative including the **a:b** style where** a** is inclusive while **b** is exclusive. This should be helpful for future challenges.
 
+## Day 10
+First part of day 10 was super easy; sort the data and count the difference sizes. However, part 2 was a nightmare. The aim was to count the number of possible combinations of adapters that still worked. I had a thought about using a recursive function and should have continued down this path - instead I tried coming up with all possible combinations of adpaters and checking how many were valid. This caused me to run out of memory and so we had to look to the alternative. 
+
+This brought me to dynamic programming. I've come across DPs quite abit in my PhD for solving changepoint problems however coding one using a recursive function I haven't done - learning time. So if you are looking at the code in the day10Alt.py file you will see what I'm going to explain. The key part is we for each position we want to see how many ways there are to get to the end. So we start with the first entry and then cycle though the possible next steps. In this case it will be the second entry, now however we want all the paths from the second entry to the end so again we cycle through these. What ends up happening is we cycle through all the way to the last entry (we then hit the **return 1**) now we start cycling backwards through the data. So we almost retreat or i a step and then look for the next j that we haven't already looked at. Now if we finish all the possible j's for that i then we know all the possible paths from i to the end so we can store this for future reference. We will then move back another i and start looking through all the j's past i that we haven't already looked at (making use of the stored number of paths to the end if that j appears.
+
+This took me a while to get my head around but I feel I could now code one myself for a similar project. In the end a disappointing day that I didn't finish without help but a good learning day for DPs!
