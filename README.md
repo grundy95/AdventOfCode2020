@@ -18,6 +18,7 @@ Below is a diary of the main take-aways from each day and the main things I have
   * [Day 10](#day-10)
   * [Day 11](#day-11)
   * [Day 12](#day-12)
+  * [Day 13](#day-13)
 
 ## Day 1
 This challenge mainly consisted of me learning basic python syntax including for loops and if statements. Additionally, finding the correct syntax for importing my data was challenging and then learning how to read this data.
@@ -71,3 +72,8 @@ Part 2 I read and then thought I will come back to this another day (it was Xmas
 We finished a day in a reasonable time!! Lot of **if** and **elif** statements and got there using a list [North, East] for the ships position. Then saw in the alternative it is much easier to just use two variables. Additionally, the alternative showed me its probably nicer to have a for loop repeating the direction changes rather than 3 if statements - definitely looks cleaner. Also, was nice how the set directions were used DX and DY rather than writing out again 4 different if statements. 
 
 Overall a good day and alternative provided us with some tricks for making our code more neat.
+
+## Day 13
+First true failure day. Part one was very easy using basic mods and just remembering to be careful about which way around the wait time is (not the time since the last bus but the time until the next bus). 
+
+Part 2 I had no idea how to go about this and imagined it would be some trick with mods. I was right and the alternative was done using the Chinese Remainder Theorem. However, after listening to the explanation of this I deemed it wasn't worth the extensive time needed to understand all this and code it up. Sometimes its better to just move on and save a lesson for another day when it might be more relevant - I struggle to see myself using the Chinese remainder theorem anytime soon!
