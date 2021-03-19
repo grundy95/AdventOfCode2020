@@ -1,6 +1,6 @@
 # Advent of Code 2020
 
-Hi! I'm using the Advent of Code (https://adventofcode.com/2020) to learn python and here you will find all of my solutions.
+Hi! I'm using the Advent of Code (https://adventofcode.com/2020) to learn python and here you will find all of my solutions. I got up to Day 13 before the challeneges became too technical for someone starting out in Python. 13 days is better than none and it was definitly a good early introduction to Python. 
 
 The alternative solutions (day*Alt.py files) are created after I've completed the days challenge by comparing my solution to that of Jonathan Paulson (https://www.youtube.com/channel/UCuWLIm0l4sDpEe28t41WITA/featured)
 
